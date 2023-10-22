@@ -9,7 +9,6 @@ class NewsRepo {
 
     final articleModel = NewsModel.fromJson(res.data);
     final article = articleModel.articles;
-    print(res.data);
     return article;
   }
 }

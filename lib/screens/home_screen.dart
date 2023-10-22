@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news/models/news_model.dart';
-import 'package:news/news_details_screen.dart';
+import 'package:news/screens/news_details_screen.dart';
 import 'package:news/repository/news_repo.dart';
 import 'package:news/widgets/news_card_widget.dart';
 import 'package:news/widgets/shimmer_news_card_widget.dart';
