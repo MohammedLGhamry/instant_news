@@ -17,6 +17,7 @@ class NewsDetailsScreen extends StatelessWidget {
           SliverAppBar(
             automaticallyImplyLeading: false,
             expandedHeight: MediaQuery.of(context).size.height * 0.30,
+            backgroundColor: Colors.white,
             flexibleSpace: Stack(
               children: [
                  Positioned.fill(

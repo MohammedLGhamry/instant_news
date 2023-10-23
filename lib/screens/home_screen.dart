@@ -65,10 +65,24 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 }
 
+
                 if(snapshot.hasError){
-                  return Center(
-                    child: Text("Error: ${snapshot.error}"),
+                  return ListView.separated(
+                    shrinkWrap: true,
+                    itemCount: 7,
+                    itemBuilder: (context, index){
+                      return ShimmerNewsCardWidget();
+                    },
+                    separatorBuilder: (BuildContext context, int index) {
+                      return SizedBox(
+                        height: 25,
+                      );
+                    },
                   );
+
+                  /*return Center(
+                    child: Text("Error: ${snapshot.error}"),
+                  );*/
                 }
 
                 if (snapshot.hasData) {

@@ -31,7 +31,7 @@ class NewsCardWidget extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 10,
                   fontWeight: FontWeight.w600,
-                  color: Color(0xFFD9D9D9),
+                  color: Color(0xFFC5C3C3),
                 ),
               ),
             ],
